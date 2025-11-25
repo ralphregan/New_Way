@@ -7,14 +7,14 @@ import { Card, CardContent } from "../ui/card";
 
 export function AgencyContact() {
   return (
-    <section id="contact" className="py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section id="contact" className="py-24 bg-linear-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent mb-4">
+          <div className="inline-block px-4 py-2 bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent mb-4">
             Get In Touch
           </div>
           <h2 className="text-4xl md:text-5xl text-gray-900 mb-4">
-            Ready to <span className="bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent">Grow Your Business?</span>
+            Ready to <span className="bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent">Grow Your Business?</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Let's discuss how we can help you achieve your digital marketing goals
@@ -26,34 +26,34 @@ export function AgencyContact() {
           <div className="space-y-6">
             <Card className="border-2 border-gray-100 hover:border-teal-200 transition-colors">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <Mail className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Email Us</h3>
-                <p className="text-gray-600">hello@neuweg.com</p>
-                <p className="text-gray-600">contact@neuweg.com</p>
+                <p className="text-gray-600">Neuewege.agency@gmail.com</p>
+                <p className="text-gray-600">Neuewege.agency@gmail.com</p>
               </CardContent>
             </Card>
 
             <Card className="border-2 border-gray-100 hover:border-teal-200 transition-colors">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <Phone className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Call Us</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+49 160 3893673</p>
                 <p className="text-gray-600">Mon-Fri, 9AM-6PM</p>
               </CardContent>
             </Card>
 
             <Card className="border-2 border-gray-100 hover:border-teal-200 transition-colors">
               <CardContent className="p-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <MapPin className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Visit Us</h3>
-                <p className="text-gray-600">123 Digital Avenue</p>
-                <p className="text-gray-600">Innovation City, IC 12345</p>
+                <p className="text-gray-600">Freiligrathstraße 9, Magdeburg, Germany</p>
+                <p className="text-gray-600">Innovation City, MG 36104</p>
               </CardContent>
             </Card>
           </div>
@@ -63,7 +63,7 @@ export function AgencyContact() {
             <Card className="border-2 border-gray-100 shadow-lg">
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] rounded-lg flex items-center justify-center">
+                  <div className="w-10 h-10 bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] rounded-lg flex items-center justify-center">
                     <MessageSquare className="w-5 h-5 text-white" />
                   </div>
                   <h3 className="text-2xl text-gray-900">Send us a message</h3>
@@ -120,7 +120,7 @@ export function AgencyContact() {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] hover:from-[#4AADA0] hover:to-[#2A8A7D] text-white py-6"
+                    className="w-full bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] hover:from-[#4AADA0] hover:to-[#2A8A7D] text-white py-6"
                   >
                     Send Message
                     <Send className="w-4 h-4 ml-2" />
