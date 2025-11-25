@@ -52,8 +52,8 @@ export function AgencyContact() {
                   <MapPin className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Visit Us</h3>
-                <p className="text-gray-600">Freiligrathstraße 9, Magdeburg, Germany</p>
-                <p className="text-gray-600">Innovation City, MG 36104</p>
+                <p className="text-gray-600">Freiligrathstraße 9,</p>
+                <p className="text-gray-600">Innovation City, 36104 Magdeburg, Germany</p>
               </CardContent>
             </Card>
           </div>
