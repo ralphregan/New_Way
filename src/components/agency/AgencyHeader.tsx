@@ -1,4 +1,4 @@
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "../ui/button";
 import { useState } from "react";
 import { NeueWegeLogo } from "./NeueWegeLogo";

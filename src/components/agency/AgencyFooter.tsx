@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Linkedin, Zap } from "lucide-react";
+import { Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 import { NeueWegeLogo } from "./NeueWegeLogo";
 
 export function AgencyFooter() {
