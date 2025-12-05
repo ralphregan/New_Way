@@ -29,7 +29,7 @@ const stats = [
 
 export function AgencyStats() {
   return (
-    <section className="py-24 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] relative overflow-hidden">
+    <section className="rounded-3xl shadow-2xl shadow-emerald-200 py-24 bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -40,10 +40,10 @@ export function AgencyStats() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl text-white mb-4">
+          <h2 className="font-bold text-4xl md:text-5xl text-white mb-4">
             Proven Track Record
           </h2>
-          <p className="text-white/90 max-w-2xl mx-auto text-lg">
+          <p className="font-medium text-white/90 max-w-2xl mx-auto text-lg">
             Numbers that speak louder than words
           </p>
         </div>
@@ -56,13 +56,13 @@ export function AgencyStats() {
                 <div className="w-16 h-16 mx-auto mb-4 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center">
                   <Icon className="w-8 h-8 text-white" />
                 </div>
-                <div className="text-5xl text-white mb-2">
+                <div className="font-bold text-5xl text-white mb-2">
                   {stat.value}
                 </div>
-                <div className="text-xl text-white mb-2">
+                <div className="font-semibold text-xl text-white mb-2">
                   {stat.label}
                 </div>
-                <div className="text-white/80 text-sm">
+                <div className="font-medium text-white/80 text-sm">
                   {stat.description}
                 </div>
               </div>

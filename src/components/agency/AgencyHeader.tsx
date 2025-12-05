@@ -7,22 +7,22 @@ export function AgencyHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+    <header className=" fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 rounded-2xl shadow-md shadow-emerald-200 ">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
             <NeueWegeLogo className="w-12 h-12" />
             <div>
-              <span className="block text-2xl tracking-tight text-[#3B9B8E]">
+              <span className="block text-2xl font-bold tracking-tight text-[#3B9B8E]">
                 NEUE WEGE
               </span>
-              <span className="block text-xs text-gray-500 -mt-1">Digital Marketing</span>
+              <span className="font-medium block text-xs text-gray-500 -mt-1">Digital Marketing</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="font-medium hidden md:flex items-center gap-8">
             <a href="#home" className="text-gray-700 hover:text-[#3B9B8E] transition-colors">
               Home
             </a>

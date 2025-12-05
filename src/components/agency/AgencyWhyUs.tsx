@@ -38,13 +38,13 @@ export function AgencyWhyUs() {
     <section id="about" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-2 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent mb-4">
+          <div className="font-bold inline-block px-4 py-2 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent mb-4">
             Why Choose Us
           </div>
-          <h2 className="text-4xl md:text-5xl text-gray-900 mb-4">
+          <h2 className="font-bold text-4xl md:text-5xl text-gray-900 mb-4">
             Your Success Is <span className="bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] bg-clip-text text-transparent">Our Mission</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+          <p className="font-medium text-gray-600 max-w-2xl mx-auto text-lg">
             We combine creativity, technology, and strategy to deliver exceptional results
           </p>
         </div>
@@ -53,15 +53,15 @@ export function AgencyWhyUs() {
           {reasons.map((reason, index) => {
             const Icon = reason.icon;
             return (
-              <div key={index} className="relative group">
+              <div key={index} className=" relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#5EBEAF] to-[#3B9B8E] rounded-2xl blur opacity-0 group-hover:opacity-20 transition-opacity"></div>
                 <div className="relative bg-white border-2 border-gray-100 rounded-2xl p-8 hover:border-transparent hover:shadow-xl transition-all">
                   <div className="w-12 h-12 bg-gradient-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-[#3B9B8E]" />
                   </div>
-                  <h3 className="text-xl text-gray-900 mb-3">{reason.title}</h3>
-                  <p className="text-gray-600">{reason.description}</p>
-                </div>
+                  <h3 className="font-semibold text-xl text-gray-900 mb-3">{reason.title}</h3>
+                  <p className="font-medium text-gray-600">{reason.description}</p>
+                </div> 
               </div>
             );
           })}

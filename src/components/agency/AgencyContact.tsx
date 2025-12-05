@@ -29,9 +29,12 @@ export function AgencyContact() {
                 <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <Mail className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
-                <h3 className="text-gray-900 mb-2">Email Us</h3>
-                <p className="text-gray-600">Neuewege.agency@gmail.com</p>
-                <p className="text-gray-600">Neuewege.agency@gmail.com</p>
+                <h3 className="font-bold text-gray-900 mb-2">Email Us</h3>
+                <p className="font-semibold text-gray-600">Neuewege.agency@gmail.com</p>
+                <button className="mt-2 text-sm bg-[#31b4a3] shadow-2xl  text-white rounded-xl p-3 hover:shadow-xl transition-all hover:bg-[#24cda3] hover:text-[#ffffff] hover:border-transparent font-bold ">
+                  Send an Email
+                </button>
+        
               </CardContent>
             </Card>
 
@@ -40,9 +43,9 @@ export function AgencyContact() {
                 <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <Phone className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
-                <h3 className="text-gray-900 mb-2">Call Us</h3>
-                <p className="text-gray-600">+49 160 3893673</p>
-                <p className="text-gray-600">Mon-Fri, 9AM-6PM</p>
+                <h3 className="font-bold text-gray-900 mb-2">Call Us</h3>
+                <p className="font-semibold text-gray-600">+49 160 3893673</p>
+                <p className="font-medium text-gray-600">Mon-Fri, 9AM-6PM</p>
               </CardContent>
             </Card>
 
@@ -51,9 +54,9 @@ export function AgencyContact() {
                 <div className="w-12 h-12 bg-linear-to-r from-teal-100 to-emerald-100 rounded-xl flex items-center justify-center mb-4">
                   <MapPin className="w-6 h-6 text-[#3B9B8E]" />
                 </div>
-                <h3 className="text-gray-900 mb-2">Visit Us</h3>
-                <p className="text-gray-600">Freiligrathstraße 9,</p>
-                <p className="text-gray-600">Innovation City, 36104 Magdeburg, Germany</p>
+                <h3 className="font-bold text-gray-900 mb-2">Visit Us</h3>
+                <p className="font-medium text-gray-600">Freiligrathstraße 9,</p>
+                <p className="font-medium text-gray-600">Innovation City, 36104 Magdeburg, Germany</p>
               </CardContent>
             </Card>
           </div>
@@ -66,7 +69,7 @@ export function AgencyContact() {
                   <div className="w-10 h-10 bg-linear-to-r from-[#5EBEAF] to-[#3B9B8E] rounded-lg flex items-center justify-center">
                     <MessageSquare className="w-5 h-5 text-white" />
                   </div>
-                  <h3 className="text-2xl text-gray-900">Send us a message</h3>
+                  <h3 className="font-medium text-3xl text-gray-900">Send us a message</h3>
                 </div>
 
                 <form className="space-y-6">
